@@ -5,9 +5,7 @@ import {
   Row,
   Col,
   Button,
-  Fa,
-  Table,
-  TableBody
+  Fa
 } from "mdbreact";
 import auth from "../auth/auth-helper";
 import Newsfeed from "../post/Newsfeed.jsx";
