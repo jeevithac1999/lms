@@ -3,14 +3,14 @@ import { Row, Col, Chip } from 'mdbreact';
 import { list } from './api-course'
 import auth from '../auth/auth-helper.js'
 
-const styles = {
-  heading: {
-    fontWeight: 400,
-    color: "white",
-    paddingTop: "1.5rem",
-    paddingLeft: "1.5rem"
-  }
-}
+// const styles = {
+//   heading: {
+//     fontWeight: 400,
+//     color: "white",
+//     paddingTop: "1.5rem",
+//     paddingLeft: "1.5rem"
+//   }
+// }
 class CourseGrid extends Component {
   
   state = {
