@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/schoolDB", { useNewUrlParser: true });
+mongoose.connect(mongodb+srv://jeevitha:123abc@cluster0.zs321.mongodb.net/lms?retryWrites=true&w=majority || "mongodb://localhost/schoolDB", { useNewUrlParser: true });
 
 const PORT = process.env.PORT || 3001;
 
